@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.producto h3{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.listado_productos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.producto{
+    margin-right: 10px;
+    margin-left:  10px;
+    box-shadow: 1px 1px 10px #c3b9b9;
+}
+
+.producto .tamaño_pack{
+    font-weight: 400;   
+    font-family: 'Poppins', sans-serif; 
+    font-size: 10px;
+    line-height: 15px;
+}
+.producto .precio_antes{
+    font-weight: 400;   
+    font-family: 'Poppins', sans-serif; 
+    font-size: 12px;
+    color: #7A7A7A;
+}
+.producto .precio_despues{
+    font-weight: 400;   
+    font-family: 'Poppins', sans-serif; 
+    font-size: 21px;
+}
+
+.producto:first-child{
+    margin-left: none;
+}
+
+.producto:last-child{
+    margin-right: none;
+}
+
+.producto img{
+    display: block;
+    margin:auto;
+}
+
+span{
+    display: block;
+    color: #7A7A7A;
+}
+
+
